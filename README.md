@@ -1,4 +1,4 @@
-# odlySpecificPythonScriptsForCreativeCoding
+# oddlySpecificPythonScriptsForCreativeCoding
 less useful repo ever.  
 
 ## VispyProcessLoopFbo

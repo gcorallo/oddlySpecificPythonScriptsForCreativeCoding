@@ -93,7 +93,6 @@ if __name__ == '__main__':
     img = np.float32(pil_img)/255.
     
     c = Canvas()
-    size = c.size
   
     n_frames = 60
 
@@ -102,8 +101,6 @@ if __name__ == '__main__':
         c.process_frame(img)
         
         img = c.sc
-
-        print('Finished in %.1fms.' % (c._time*1e3))
 
         io.write_png('./out/frame_%03d.png' % (i+1), img)
 
